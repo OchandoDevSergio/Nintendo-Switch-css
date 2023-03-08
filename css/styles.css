@@ -244,7 +244,80 @@ body {
     align-items: flex-start;
 
     flex-direction: column;
-    background-color: black; 
+    /* background-color: black;  */
+}
+
+#upscreen {
+    height: 3vh;
+    width: 60vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    flex-direction: row;
+    background-color: grey;
+}
+
+#lefthole {
+     height: 3vh;
+     width: 1.5vw;
+
+     border-radius: 0% 0% 100% 0%;
+     background-color: white;
+}
+
+#usmidbar {
+    height: 3vh;
+    width: 57vw;
+    
+    border-radius: 50%;
+}
+
+#righthole {
+    height: 3vh;
+    width: 1.5vw;
+
+    border-radius: 0% 0% 0% 100%;
+    background-color: white;
+}
+
+#midscreen {
+    height: 84vh;
+    width: 60vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    flex-direction: row;
+    background-color: grey;
+}
+
+#innerscreen {
+    height: 84vh;
+    width: 57vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5% 5% 5% 5%;
+    background-color: darkgrey;
+}
+
+#innerestscreen {
+    height: 70vh;
+    width: 50vw;
+
+    background-color: black;
+}
+
+#downscreen {
+    height: 3vh;
+    width: 60vw;
+
+    background-color: grey;
 }
 
 #cright {
