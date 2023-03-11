@@ -118,7 +118,8 @@ body {
     height: 1vh;
     width: 2vw;
 
-    background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    background-color: rgb(56, 55, 55);
 }
 
 #sm2 {
@@ -142,8 +143,21 @@ body {
     height: 14vh;
     width: 7vw;
 
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
     border-radius: 50%;
-    background-color: black;
+    background-color: rgb(90, 88, 88);
+}
+
+.inneranalogic {
+    height: 10vh;
+    width: 5vw;
+
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    border-radius: 50%;
+    background-color: rgb(65, 64, 64);
 }
 
 #cl2 {
@@ -187,7 +201,7 @@ body {
     box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
 
     border-radius: 50%;
-    background-color: rgb(151, 149, 149);
+    background-color: rgb(68, 67, 67);
 
     color: white;
 }
@@ -237,7 +251,21 @@ body {
     height: 5vh;
     width: 2.5vw;
 
-    background-color: black;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    border-radius: 10% 10% 10% 10%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    background-color: rgb(118, 118, 118);
+}
+
+#innerbuttonsquare {
+    height: 4vh;
+    width: 2vw;
+
+    border-radius: 50%;
+    background-color: rgb(33, 33, 33);
 }
 
 #cmiddle {
@@ -405,7 +433,8 @@ body {
     height: 1.5vh;
     width: 0.5vw;
 
-    background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    background-color: rgb(56, 55, 55);
 }
 
 .s12 {
@@ -462,6 +491,18 @@ body {
     height: 5vh;
     width: 2.5vw;
 
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
     border-radius: 50%;
     background-color: black;
+}
+
+#innercircle {
+    height: 4vh;
+    width: 2vw;
+
+    border-radius: 50%;
+    background-color: rgb(74, 73, 73);
 }
